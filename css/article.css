@@ -1,0 +1,44 @@
+.article {
+    background-color: #1f1f1f; /* Slightly lighter than the base dark background */
+    border-radius: 5px; /* Soft rounded corners */
+    padding: 20px;
+    margin-bottom: 20px; /* Spacing between articles if listed */
+    transition: background-color 0.3s; 
+}
+
+.article:hover {
+    background-color: #242424; /* Lighter shade for hover effect */
+}
+
+.article-title {
+    font-size: 2em;
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.article-subtitle {
+    font-size: 1.25em;
+    margin-bottom: 20px; /* Space below the subtitle */
+    color: #b0b0b0; /* A shade lighter than regular text, but darker than title */
+}
+
+.article-image {
+    max-width: 100%; /* Ensure image doesn't overflow article */
+    border-radius: 5px; /* Consistency with article's rounded corners */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.article-content {
+    font-size: 1em; /* Standard font size, adjust if needed */
+    line-height: 1.6; /* Spacious line-height for readability */
+    margin-bottom: 20px; /* Space below content if there's a footer or other elements */
+}
+
+.article-author {
+    font-weight: bold; /* Bold the author's name */
+    margin-right: 10px; /* Space between author and date */
+}
+
+.article-date {
+    color: #9a9a9a; /* Slightly subdued compared to main content for visual hierarchy */
+}
+
